@@ -1,0 +1,110 @@
+.table-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    min-width: 800px;
+    overflow-x: auto;
+  }
+
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .table-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4338ca;
+  }
+
+
+  #tableMetrics {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  #tableMetrics thead th {
+    background-color: #f3f4f6;
+    color: #374151;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    min-width: 30px;
+    text-align: left;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  #tableMetrics tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+    transition: background-color 0.2s;
+  }
+
+  #tableMetrics tbody tr:hover {
+    background-color: #f9fafb;
+  }
+
+  #tableMetrics td {
+    padding: 1rem;
+    color: #4b5563;
+  }
+
+  .metric-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .metric-good {
+    background-color: #dcfce7;
+    color: #166534;
+  }
+
+  .metric-warning {
+    background-color: #fef9c3;
+    color: #854d0e;
+  }
+
+  .metric-poor {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.375rem;
+    border: 1px solid #e5e7eb;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #f3f4f6;
+    color: #4338ca;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #4338ca;
+    color: white;
+    border-color: #4338ca;
+  }
+
+  .dataTables_wrapper .dataTables_length select {
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #e5e7eb;
+    margin: 0 0.5rem;
+  }
