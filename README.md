@@ -39,3 +39,6 @@ La aplicación está construida con Laravel y utiliza Docker para su entorno de 
 
 ## Agradecimientos
 Gracias por la oportunidad de participar en este challenge. Ha sido una experiencia enriquecedora poder demostrar mis habilidades técnicas.
+
+## Nota
+El archivo .env necesario para correr la aplicación se encuentra dentro del mail donde se mandó el link del repositorio.
